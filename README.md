@@ -5,7 +5,7 @@ App used for manage payments put only employees of the bank can use it
 
 ## The Challenge
  ###### - Add new users & employees & separate between them 
- ######   because employees accounts has more services
+   ###### because employees accounts has more services
 
 
 
