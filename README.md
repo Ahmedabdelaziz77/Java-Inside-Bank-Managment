@@ -150,7 +150,7 @@ Enjoy using the ATM Management System!
 
  ## Demos
 
-  #### [Video Demo Link](https://drive.google.com/file/d/1pegLWJED8HIibfFaJ7Q9tBitDBI8yAOk/view?usp=drive_link)https://drive.google.com/file/d/1pegLWJED8HIibfFaJ7Q9tBitDBI8yAOk/view?usp=drive_link) 
+  #### [Video Demo Link](https://drive.google.com/file/d/1pegLWJED8HIibfFaJ7Q9tBitDBI8yAOk/view?usp=drive_link)
    
 
 
