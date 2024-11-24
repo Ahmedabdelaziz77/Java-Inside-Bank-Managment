@@ -58,7 +58,17 @@ The challenge involved in this project includes:
 ## Getting Started
 
 To get started with the banking management system:
-
 ### Prerequisites
 - Install **Java Development Kit (JDK)** on your machine.
 - Ensure that **Java Swing** is available for UI components.
+
+### Running the Project
+1. Clone the repository to your local machine.
+2. Compile and run the Java files in the project.
+3. Start with the `FirstPage.java` to launch the application.
+
+```bash
+git clone https://github.com/your-username/Java-Inside-Bank-Management.git
+cd Java-Inside-Bank-Management
+javac *.java
+java FirstPage
