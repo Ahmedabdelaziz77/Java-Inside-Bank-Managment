@@ -107,7 +107,9 @@ The database connection is managed in the `MyDb.java` file. Update the credentia
 String url = "jdbc:mysql://localhost:3306/atmdb";
 String username = "root";
 String password = "";
-## Prerequisites
+
+
+### Prerequisites
 
 Before running the project, ensure you have the following installed:
 
