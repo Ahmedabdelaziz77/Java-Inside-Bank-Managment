@@ -2,6 +2,8 @@
 
 A comprehensive banking system designed for managing various banking operations such as deposits, withdrawals, account management, and more. The system differentiates between users and employees, providing enhanced functionalities and services for employees. This project uses **Java** and **Java Swing** for the user interface and provides a secure and user-friendly platform for managing banking tasks.
 
+---
+
 ## Features
 
 ### User Features
@@ -23,6 +25,8 @@ A comprehensive banking system designed for managing various banking operations 
 - **Authorization for Sensitive Operations:** Employees are authorized to access and perform sensitive operations like withdrawals, deposits, and account management.
 - **Password Recovery:** Forgotten passwords can be reset via a secure process.
 
+---
+
 ## Project Structure
 
 The project consists of multiple Java classes, each responsible for handling different functionalities:
@@ -43,32 +47,57 @@ The project consists of multiple Java classes, each responsible for handling dif
 - **ForgetPassword.java:** Implements functionalities for users to recover or reset their forgotten passwords.
 - **Log.java:** Keeps a record of user activity or transactions for audit or troubleshooting purposes.
 
-## Challenge & Enhancements
+---
 
-The challenge involved in this project includes:
-- **Adding New Users & Employees:** Adding new users to the system and differentiating between normal users and employees, as employees have access to a wider range of services.
-- **Authorization for Services:** Ensuring that employees are authorized to access all types of services like withdrawing, depositing, and viewing account information.
-- **User Role Differentiation:** Ensuring that employees can perform all banking operations while users have more restricted access.
+## Database Details
 
-## Built With
+The system uses a MySQL database named **`atmdb`**, which contains the following three tables:
 
-- **Java** - The core language used to build the banking system.
-- **Java Swing** - Used for creating the user interface and managing interactions within the banking system.
+### 1. **`accounttbl`**
+- Stores user account details such as account number, balance, and PIN.
+- **Schema:**
+  ```sql
+  CREATE TABLE accounttbl (
+      AccNum INT(200) PRIMARY KEY,
+      AccName VARCHAR(200),
+      FName VARCHAR(200),
+      Dob VARCHAR(200),
+      Phone VARCHAR(200),
+      Address VARCHAR(200),
+      Education VARCHAR(200),
+      Occupation VARCHAR(200),
+      Balance INT(200),
+      PIN INT(200)
+  );
 
-## Getting Started
 
-To get started with the banking management system:
-### Prerequisites
-- Install **Java Development Kit (JDK)** on your machine.
-- Ensure that **Java Swing** is available for UI components.
+### 2. **`employee`**
+- Contains information about employees, including employee IDs and access levels.
+- - **Schema:**
+  ```sql
+  CREATE TABLE employee (
+    name VARCHAR(200),
+    password VARCHAR(200),
+    accnum INT(200),
+    phone INT(200),
+    address VARCHAR(200),
+    balance INT(200)
+);
 
-- ## Database Details
+### 3. **`transactiontbl`**
+- Records all transactions made by users, such as deposits, withdrawals, and transfers.
+- - **Schema:**
+  ```sql
+  CREATE TABLE transactiontbl (
+      Tid INT(200) PRIMARY KEY,
+      AccNum INT(200),
+      Type VARCHAR(200),
+      TDate VARCHAR(200),
+      Amount INT(200)
+  );
 
-The system uses a database in mysql called **`atmdb`** that contains the following three tables:
 
-1. **`accounttbl`:** Stores user account details such as account number, balance, and PIN.
-2. **`employee`:** Contains information about employees, including employee IDs and access levels.
-3. **`transactiontbl`:** Records all transactions made by users, such as deposits, withdrawals, and transfers.
+
 
 ![accounttbl](https://github.com/user-attachments/assets/49e0e559-b4b2-44e3-a906-f012e507c84f)
 ![employee](https://github.com/user-attachments/assets/c71b28e4-7918-4b95-829b-e1eff202eaa5)
