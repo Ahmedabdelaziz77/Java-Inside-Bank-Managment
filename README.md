@@ -70,6 +70,10 @@ The system uses a database in mysql called **`atmdb`** that contains the followi
 2. **`employee`:** Contains information about employees, including employee IDs and access levels.
 3. **`transactiontbl`:** Records all transactions made by users, such as deposits, withdrawals, and transfers.
 
+![accounttbl](https://github.com/user-attachments/assets/49e0e559-b4b2-44e3-a906-f012e507c84f)
+![employee](https://github.com/user-attachments/assets/c71b28e4-7918-4b95-829b-e1eff202eaa5)
+![transactiontbl](https://github.com/user-attachments/assets/dfde9b13-dd7a-4e37-b6df-2a587fa1a374)
+
 ### Running the Project
 1. Clone the project to your local machine.
 2. Compile and run the Java files in the project.
