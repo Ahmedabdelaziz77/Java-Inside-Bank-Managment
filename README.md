@@ -132,10 +132,14 @@ Follow these steps to set up and run the project:
 3. **Create the Database:**  
    Create a database named `atmdb` in your MySQL server.
 
-4. **Set Up Tables:**  
+   ```sql
+   CREATE DATABASE atmdb;
+   ```
+
+5. **Set Up Tables:**  
    Use the provided SQL schema files to create the necessary tables in the `atmdb` database.
 
-5. **Run the Application:**  
+6. **Run the Application:**  
    - Compile all Java files.
    - Start the application by running `FirstPage.java`.
 
