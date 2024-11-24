@@ -119,7 +119,7 @@ String password = "";
 2. Compile and run the Java files in the project.
 3. Create the atmdb database
 
-CREATE DATABASE atmdb;
+```CREATE DATABASE atmdb;```
 
 4.Use the provided schemas to create the tables in your database.
 5.Compile and run the Java files using your preferred IDE or terminal.
