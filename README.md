@@ -110,29 +110,3 @@ String url = "jdbc:mysql://localhost:3306/atmdb";
 String username = "root";
 String password = "";
 
-
-
-### Prerequisites
-1. Java Development Kit (JDK): Install version 8 or higher.
-2. MySQL Server: Install version 8.0 or higher.
-3. MySQL Connector/J: Ensure you have the latest connector for Java.
-4. AbsoluteLayout-RELEASE230.jar
-
-### Running the Project
-1. Clone the project to your local machine.
-2. Compile and run the Java files in the project.
-3. Create the atmdb database
-
-```sql
-CREATE DATABASE atmdb;
-
-4.Use the provided schemas to create the tables in your database.
-5.Compile and run the Java files using your preferred IDE or terminal.
-6.Start the application from FirstPage.java.
-
-
- ## Demos
-
-  #### Video Demo Link => (https://drive.google.com/file/d/1pegLWJED8HIibfFaJ7Q9tBitDBI8yAOk/view?usp=drive_link)https://drive.google.com/file/d/1pegLWJED8HIibfFaJ7Q9tBitDBI8yAOk/view?usp=drive_link) 
-   
-
