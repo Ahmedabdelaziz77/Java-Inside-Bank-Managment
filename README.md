@@ -103,10 +103,14 @@ The system uses a MySQL database named **`atmdb`**, which contains the following
 ### **`Database Connection`**
 The database connection is managed in the MyDb.java file. Update the credentials as per your setup:
 
+
+
 ```java
 String url = "jdbc:mysql://localhost:3306/atmdb";
 String username = "root";
-String password = ""; ```
+String password = "";
+
+
 
 ### Prerequisites
 1. Java Development Kit (JDK): Install version 8 or higher.
