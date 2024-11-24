@@ -103,6 +103,11 @@ The system uses a MySQL database named **`atmdb`**, which contains the following
 ### **`Database Connection`**
 The database connection is managed in the MyDb.java file. Update the credentials as per your setup:
 
+
+String url = "jdbc:mysql://localhost:3306/atmdb";
+String username = "root";
+String password = "";
+
 ### Prerequisites
 1. Java Development Kit (JDK): Install version 8 or higher.
 2. MySQL Server: Install version 8.0 or higher.
@@ -114,7 +119,6 @@ The database connection is managed in the MyDb.java file. Update the credentials
 2. Compile and run the Java files in the project.
 3. Create the atmdb database
 
-```sql
 CREATE DATABASE atmdb;
 
 4.Use the provided schemas to create the tables in your database.
@@ -122,10 +126,6 @@ CREATE DATABASE atmdb;
 6.Start the application from FirstPage.java.
 
 
-```java
-String url = "jdbc:mysql://localhost:3306/atmdb";
-String username = "root";
-String password = "";
 
 
  ## Demos
