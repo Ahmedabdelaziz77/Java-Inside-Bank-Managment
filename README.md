@@ -117,10 +117,7 @@ String password = "";
 ### Running the Project
 1. Clone the project to your local machine.
 2. Compile and run the Java files in the project.
-3. Create the atmdb database
-
-```CREATE DATABASE atmdb;```
-
+3. Create the atmdb database. java```CREATE DATABASE atmdb;
 4.Use the provided schemas to create the tables in your database.
 5.Compile and run the Java files using your preferred IDE or terminal.
 6.Start the application from FirstPage.java.
