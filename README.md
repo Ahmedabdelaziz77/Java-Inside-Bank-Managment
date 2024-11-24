@@ -64,7 +64,7 @@ To get started with the banking management system:
 
 - ## Database Details
 
-The system uses a database called **`atmdb`** that contains the following three tables:
+The system uses a database in mysql called **`atmdb`** that contains the following three tables:
 
 1. **`accounttbl`:** Stores user account details such as account number, balance, and PIN.
 2. **`employee`:** Contains information about employees, including employee IDs and access levels.
