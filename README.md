@@ -100,10 +100,10 @@ The system uses a MySQL database named **`atmdb`**, which contains the following
 ![employee](https://github.com/user-attachments/assets/c71b28e4-7918-4b95-829b-e1eff202eaa5)
 ![transactiontbl](https://github.com/user-attachments/assets/dfde9b13-dd7a-4e37-b6df-2a587fa1a374)
 
-### **`Database Connection`**
-The database connection is managed in the MyDb.java file. Update the credentials as per your setup:
+### **Database Connection**
+The database connection is managed in the `MyDb.java` file. Update the credentials in the file to match your local setup:
 
-
+```java
 String url = "jdbc:mysql://localhost:3306/atmdb";
 String username = "root";
 String password = "";
