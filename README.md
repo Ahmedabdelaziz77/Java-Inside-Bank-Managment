@@ -96,18 +96,35 @@ The system uses a MySQL database named **`atmdb`**, which contains the following
       Amount INT(200)
   );
 
-
-
-
 ![accounttbl](https://github.com/user-attachments/assets/49e0e559-b4b2-44e3-a906-f012e507c84f)
 ![employee](https://github.com/user-attachments/assets/c71b28e4-7918-4b95-829b-e1eff202eaa5)
 ![transactiontbl](https://github.com/user-attachments/assets/dfde9b13-dd7a-4e37-b6df-2a587fa1a374)
 
+### **`Database Connection`**
+The database connection is managed in the MyDb.java file. Update the credentials as per your setup:
+
+```java
+String url = "jdbc:mysql://localhost:3306/atmdb";
+String username = "root";
+String password = "";
+
+### Prerequisites
+1. Java Development Kit (JDK): Install version 8 or higher.
+2. MySQL Server: Install version 8.0 or higher.
+3. MySQL Connector/J: Ensure you have the latest connector for Java.
+4. AbsoluteLayout-RELEASE230.jar
+
 ### Running the Project
 1. Clone the project to your local machine.
 2. Compile and run the Java files in the project.
-3. install database
-4. Start with the `FirstPage.java` to launch the application.
+3. Create the atmdb database
+
+```sql
+CREATE DATABASE atmdb;
+
+4.Use the provided schemas to create the tables in your database.
+5.Compile and run the Java files using your preferred IDE or terminal.
+6.Start the application from FirstPage.java.
 
 
  ## Demos
