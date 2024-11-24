@@ -62,13 +62,17 @@ To get started with the banking management system:
 - Install **Java Development Kit (JDK)** on your machine.
 - Ensure that **Java Swing** is available for UI components.
 
-### Running the Project
-1. Clone the repository to your local machine.
-2. Compile and run the Java files in the project.
-3. Start with the `FirstPage.java` to launch the application.
+- ## Database Details
 
-```bash
-git clone https://github.com/your-username/Java-Inside-Bank-Management.git
-cd Java-Inside-Bank-Management
-javac *.java
-java FirstPage
+The system uses a database called **`atmdb`** that contains the following three tables:
+
+1. **`accounttbl`:** Stores user account details such as account number, balance, and PIN.
+2. **`employee`:** Contains information about employees, including employee IDs and access levels.
+3. **`transactiontbl`:** Records all transactions made by users, such as deposits, withdrawals, and transfers.
+
+### Running the Project
+1. Clone the project to your local machine.
+2. Compile and run the Java files in the project.
+3. install database
+4. Start with the `FirstPage.java` to launch the application.
+
