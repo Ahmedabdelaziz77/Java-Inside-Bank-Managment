@@ -107,20 +107,36 @@ The database connection is managed in the `MyDb.java` file. Update the credentia
 String url = "jdbc:mysql://localhost:3306/atmdb";
 String username = "root";
 String password = "";
+## Prerequisites
 
-### Prerequisites
-1. Java Development Kit (JDK): Install version 8 or higher.
-2. MySQL Server: Install version 8.0 or higher.
-3. MySQL Connector/J: Ensure you have the latest connector for Java.
-4. AbsoluteLayout-RELEASE230.jar
+Before running the project, ensure you have the following installed:
 
-### Running the Project
-1. Clone the project to your local machine.
-2. Compile and run the Java files in the project.
-3. Create the atmdb database. 
-4.Use the provided schemas to create the tables in your database.
-5.Compile and run the Java files using your preferred IDE or terminal.
-6.Start the application from FirstPage.java.
+1. **Java Development Kit (JDK):** Version 8 or higher.
+2. **MySQL Server:** Version 8.0 or higher.
+3. **MySQL Connector/J:** The latest connector for Java.
+4. **AbsoluteLayout-RELEASE230.jar:** Ensure this JAR file is included in your project dependencies.
+
+## Running the Project
+
+Follow these steps to set up and run the project:
+
+1. **Clone the Project:**  
+   Clone the project repository to your local machine.
+
+2. **Compile and Run Java Files:**  
+   Use your preferred IDE or terminal to compile the Java files.
+
+3. **Create the Database:**  
+   Create a database named `atmdb` in your MySQL server.
+
+4. **Set Up Tables:**  
+   Use the provided SQL schema files to create the necessary tables in the `atmdb` database.
+
+5. **Run the Application:**  
+   - Compile all Java files.
+   - Start the application by running `FirstPage.java`.
+
+Enjoy using the ATM Management System!
 
 
 
